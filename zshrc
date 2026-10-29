@@ -76,7 +76,6 @@ alias orphans='sudo pacman -Rns $(pacman -Qtdq)'
 alias g='git'
 alias gs='git status -sb'
 alias gl='git log --oneline --graph --decorate -20'
-alias install='sudo dnf install -y'
 
 #  Prompt
 eval "$(starship init zsh)"
